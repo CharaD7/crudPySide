@@ -1,0 +1,32 @@
+{
+  "ShowLogs": true,
+  "QMainWindow": [
+    {
+      "tittle": "crudPySide"
+    }
+  ],
+  "QSettings": [
+    {
+      "ThemeSettings": [
+        {
+          "CustomTheme": [
+            {
+              "Background-color": "#000000",
+              "Text-color": "#FFFFFF",
+              "Accent-color": "#0000FF",
+              "Icons-color": "#FFFFFF",
+              "Theme-name": "Default-theme",
+              "Default-Theme": true
+            }
+          ]
+        }
+      ],
+      "AppSettings": {
+        "OrginizationName": "crudPySide",
+        "ApplicationName": "crudPySide Company",
+        "OrginizationDormain": "crudPySide.org"
+      }
+    }
+  ],
+  "QtBinding": "PySide6"
+}
