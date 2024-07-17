@@ -21,7 +21,6 @@ from Custom_Widgets.QAppSettings import QAppSettings
 ########################################################################
 ## MAIN WINDOW CLASS
 ########################################################################
-sys.argv += ['-platform', 'window:darkmode=2']
 class MainWindow(QMainWindow):
     def __init__(self, parent=None):
         QMainWindow.__init__(self)
