@@ -18,10 +18,11 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QApplication, QFrame, QLabel, QMainWindow,
     QPushButton, QSizePolicy, QVBoxLayout, QWidget)
 
+import qdarktheme
+
 app = QApplication(sys.argv)
-app.setStyle('Fusion')
-if sys.platform == 'win32':
-    sys.argv += ['-platform', 'windows:darkmode=2']
+# Apply the complete dark theme to my Qt App
+qdarktheme.setup_theme("auto")
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
