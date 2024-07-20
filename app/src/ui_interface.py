@@ -7,7 +7,7 @@
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
-
+import sys
 from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
     QMetaObject, QObject, QPoint, QRect,
     QSize, QTime, QUrl, Qt)
@@ -17,6 +17,12 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QFrame, QLabel, QMainWindow,
     QPushButton, QSizePolicy, QVBoxLayout, QWidget)
+
+app = QApplication(sys.argv)
+app.setStyle('Fusion')
+if sys.platform == 'win32':
+    sys.argv += ['-platform', 'windows:darkmode=2']
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
