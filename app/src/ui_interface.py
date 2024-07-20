@@ -20,6 +20,7 @@ from PySide6.QtWidgets import (QApplication, QFrame, QLabel, QMainWindow,
 
 import qdarktheme
 
+qdarktheme.enable_hi_dpi()
 app = QApplication(sys.argv)
 # Apply the complete dark theme to my Qt App
 qdarktheme.setup_theme("dark")
