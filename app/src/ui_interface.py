@@ -22,7 +22,7 @@ import qdarktheme
 
 app = QApplication(sys.argv)
 # Apply the complete dark theme to my Qt App
-qdarktheme.setup_theme("auto")
+qdarktheme.setup_theme("dark")
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
