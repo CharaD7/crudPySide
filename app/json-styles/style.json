@@ -1,0 +1,32 @@
+{
+  "ShowLogs": true,
+  "QMainWindow": [
+    {
+      "tittle": "My SQLite App"
+    }
+  ],
+  "QSettings": [
+    {
+      "ThemeSettings": [
+        {
+          "CustomTheme": [
+            {
+              "Background-color": "#000000",
+              "Text-color": "#FFFFFF",
+              "Accent-color": "#FF00FF",
+              "Icons-color": "#FFFFFF",
+              "Theme-name": "Default-theme",
+              "Default-Theme": true
+            }
+          ]
+        }
+      ],
+      "AppSettings": {
+        "OrginizationName": "My SQLite App",
+        "ApplicationName": "My SQLite App Company",
+        "OrginizationDormain": "My SQLite App.org"
+      }
+    }
+  ],
+  "QtBinding": "PySide6"
+}

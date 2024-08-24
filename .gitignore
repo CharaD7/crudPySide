@@ -1,0 +1,11 @@
+# logs files
+logs
+
+# neovide dump
+nohup.out
+
+# pycache
+__pycache__
+
+# mypy cache
+.mypy_cache
